@@ -3,6 +3,8 @@ name = "mathtool"
 version = "0.1.0"
 authors = ["Evan Gubarev <evan@evangubarev.com>"]
 edition = "2018"
+license = "GPL 3"
+description = "Mathtool is a collection of CLI's that add basic math functions to bash. To use these programs, first install this crate, and then run the program you need from bash. Valid programs are 'factorial', 'primes', 'add', 'subtract', 'devide', 'multiply'."
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
