@@ -33,7 +33,7 @@ path = "src/multiply.rs"
 name = "multiply"
 
 [[bin]]
-path = "src/devide.rs"
+path = "src/divide.rs"
 name = "div"
 
 [[bin]]
