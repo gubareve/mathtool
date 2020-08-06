@@ -37,7 +37,7 @@ path = "src/divide.rs"
 name = "div"
 
 [[bin]]
-path = "src/devide.rs"
+path = "src/divide.rs"
 name = "divide"
 
 [dependencies]
