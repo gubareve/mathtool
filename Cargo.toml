@@ -1,0 +1,42 @@
+[package]
+name = "mathtool"
+version = "0.1.0"
+authors = ["Evan Gubarev <evan@evangubarev.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+path = "src/primes.rs"
+name = "primes"
+
+[[bin]]
+path = "src/factorial.rs"
+name = "factorial"
+
+[[bin]]
+path = "src/add.rs"
+name = "add"
+
+[[bin]]
+path = "src/subtract.rs"
+name = "sub"
+
+[[bin]]
+path = "src/subtract.rs"
+name = "subtract"
+
+[[bin]]
+path = "src/multiply.rs"
+name = "multiply"
+
+[[bin]]
+path = "src/devide.rs"
+name = "div"
+
+[[bin]]
+path = "src/devide.rs"
+name = "devide"
+
+[dependencies]
+text_io = "0.1.8"
