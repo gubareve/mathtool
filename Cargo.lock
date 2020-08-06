@@ -2,7 +2,7 @@
 # It is not intended for manual editing.
 [[package]]
 name = "mathtool"
-version = "0.1.2"
+version = "0.2.1"
 dependencies = [
  "text_io",
 ]
