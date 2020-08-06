@@ -13,7 +13,9 @@ If you want to install directly from the repo you can run `cargo install --git h
 
 ## Features
 
-Mathtool offers basic math programs in your teminal. This includes `factorial`, `primes`, `add`, `subtract`, `divide`, and `multiply`.
+Mathtool offers basic math programs in your teminal. This includes `factorial`, `primes`, `add`, `subtract`, `divide`, and `multiply`. You can also use a cli that combines all of them, named `mathtool`.
+
+![Mathtool](https://raw.githubusercontent.com/gubareve/mathtool/master/images/mathtool.png)
 
 ![Basics](https://raw.githubusercontent.com/gubareve/mathtool/master/images/basics.png)
 
