@@ -6,7 +6,7 @@ pub fn square(number: i128) -> i128 {
     return number * number;
 }
 
-fn main() {
+pub fn main() {
     println!("Enter the number of numbers to check!");
     let i: i32 = read!();
     let mut count = 0i128;

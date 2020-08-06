@@ -6,7 +6,7 @@ pub fn square(number: i128) -> i128 {
     return number * number;
 }
 
-fn main() {
+pub fn main() {
     println!("Enter the number to find the factorial of!");
     let i: i32 = read!();
     let times_to_multiply = i + 1;

@@ -6,7 +6,7 @@ pub fn square(number: i128) -> i128 {
     return number * number;
 }
 
-fn main() {
+pub fn main() {
     println!("Enter the first number!");
     let first_number: i32 = read!();
     println!("Enter the second number!");
