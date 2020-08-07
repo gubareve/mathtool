@@ -1,10 +1,13 @@
 [package]
 name = "mathtool"
-version = "0.2.1"
+version = "0.2.2"
 authors = ["Evan Gubarev <evan@evangubarev.com>"]
 edition = "2018"
 license = "GPL-3.0"
 description = "Mathtool is a collection of CLI's that add basic math functions to bash. To use these programs, first install this crate, and then run the program you need from bash. Valid programs are `factorial`, `primes`, `add`, `subtract`, `divide`, `multiply`."
+readme = "README.md"
+homepage = "https://gubareve.github.io/mathtool/"
+repository = "https://github.com/gubareve/mathtool/"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

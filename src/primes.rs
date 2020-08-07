@@ -1,3 +1,4 @@
+use std::env;
 use std::io;
 use std::io::prelude::*;
 use text_io::read;
@@ -7,8 +8,14 @@ pub fn square(number: i128) -> i128 {
 }
 
 pub fn main() {
-    println!("Enter the number of numbers to check!");
-    let i: i32 = read!();
+    let args: Vec<String> = env::args().collect();
+    let mut i: i32 = 0;
+    if args.len() == 2 {
+        i = args[1].parse::<i32>().unwrap();
+    } else {
+        println!("Enter the number of numbers to check!");
+        i = read!();
+    }
     let mut count = 0i128;
     let mut prime = true;
     for number_to_check in 2..i {

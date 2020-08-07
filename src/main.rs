@@ -17,28 +17,28 @@ fn main() {
     println!(r" |_| |_| |_|\__,_|\__|_| |_|\__\___/ \___/|_|");
     println!(r"                                             ");
     loop {
-    println!("Select a option:");
-    println!("1: Add");
-    println!("2: Divide");
-    println!("3: Factorial");
-    println!("4: Multiply");
-    println!("5: Primes");
-    println!("6: Subtract");
-    let mut choice: i8 = read!();
-    if choice == 1 {
-        add::main();
-    } else if choice == 2 {
-        divide::main();
-    } else if choice == 3 {
-        factorial::main();
-    } else if choice == 4 {
-        multiply::main();
-    } else if choice == 5 {
-        primes::main();
-    } else if choice == 6 {
-        subtract::main();
-    } else {
-        println!("Invalid Option!");
-    }
+        println!("Select a option:");
+        println!("1: Add");
+        println!("2: Divide");
+        println!("3: Factorial");
+        println!("4: Multiply");
+        println!("5: Primes");
+        println!("6: Subtract");
+        let mut choice: i8 = read!();
+        if choice == 1 {
+            add::main();
+        } else if choice == 2 {
+            divide::main();
+        } else if choice == 3 {
+            factorial::main();
+        } else if choice == 4 {
+            multiply::main();
+        } else if choice == 5 {
+            primes::main();
+        } else if choice == 6 {
+            subtract::main();
+        } else {
+            println!("Invalid Option!");
+        }
     }
 }
