@@ -16,6 +16,7 @@ fn main() {
     println!(r" | | | | | | (_| | |_| | | | || (_) | (_) | |");
     println!(r" |_| |_| |_|\__,_|\__|_| |_|\__\___/ \___/|_|");
     println!(r"                                             ");
+    loop {
     println!("Select a option:");
     println!("1: Add");
     println!("2: Divide");
@@ -38,5 +39,6 @@ fn main() {
         subtract::main();
     } else {
         println!("Invalid Option!");
+    }
     }
 }
