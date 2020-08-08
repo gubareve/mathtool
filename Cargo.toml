@@ -1,6 +1,6 @@
 [package]
 name = "mathtool"
-version = "0.2.2"
+version = "0.2.3"
 authors = ["Evan Gubarev <evan@evangubarev.com>"]
 edition = "2018"
 license = "GPL-3.0"
