@@ -24,6 +24,7 @@ fn main() {
         println!("4: Multiply");
         println!("5: Primes");
         println!("6: Subtract");
+        println!("7: Quit");
         let mut choice: i8 = read!();
         if choice == 1 {
             add::main();
@@ -37,6 +38,8 @@ fn main() {
             primes::main();
         } else if choice == 6 {
             subtract::main();
+        } else if choice == 7 {
+            break;
         } else {
             println!("Invalid Option!");
         }
