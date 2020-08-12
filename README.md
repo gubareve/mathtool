@@ -3,7 +3,7 @@
 ![Crates.io](https://img.shields.io/crates/v/mathtool)
 ![Crates.io](https://img.shields.io/crates/l/mathtool)
 
-Mathtool is a collection of CLI's for math!
+Mathtool is a collection of CLI's that are useful for math!
 
 ## Installation
 
