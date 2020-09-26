@@ -7,7 +7,7 @@ Mathtool is a collection of CLI's that are useful for math!
 
 ## Installation
 
-Mathtool can be easily installed by running `cargo install mathtool` in your console.
+Mathtool can be easily installed by running `cargo install mathtool` in your console!
 
 If you want to install directly from the repo you can run `cargo install --git https://github.com/gubareve/mathtool.git`.
 
