@@ -18,13 +18,13 @@ fn main() {
     println!(r"                                             ");
     loop {
         println!("Select a option:");
-        println!("1: Add");
-        println!("2: Divide");
-        println!("3: Factorial");
-        println!("4: Multiply");
-        println!("5: Primes");
-        println!("6: Subtract");
-        println!("7: Quit");
+        println!("1: Add.");
+        println!("2: Divide.");
+        println!("3: Factorial.");
+        println!("4: Multiply.");
+        println!("5: Primes.");
+        println!("6: Subtract.");
+        println!("7: Quit.");
         let mut choice: i8 = read!();
         if choice == 1 {
             add::main();
